@@ -6,15 +6,18 @@ A Python file to download Video(.mp4) and Audio(.mp3) Playlist of audio and vide
 Tested and developed on ***Windows 7 32-bit SP1***
 Yet to test on Ubuntu
 
-### Command Line Programs Used:
-
+### Command Line Programs Used
   * `youtube-dl` - Used to download the file from the internet
   * `ffmpeg` - Used for postprocess data, i.e., to convert file from .webm to .mp3 format
   
-### Libraries used:
+### Libraries used
   * [subprocess](https://docs.python.org/3/library/subprocess.html#older-high-level-api) - For running commands from python.
   * [os](https://docs.python.org/3/library/os.html) - to get the current working directory.
   
+### Steps to follow
+  * On Windows 
+     1. Install `youtube-dl`
+        ```pip install youtube-dl```
 ### References
   * [wikiHow to Install FFmpeg on Windows](http://www.wikihow.com/Install-FFmpeg-on-Windows) - Helped me.
   * [Installing FFmpeg on all kind of environments](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
