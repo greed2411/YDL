@@ -24,6 +24,12 @@ Yet to test on Ubuntu
   
 ### Screenshots
 
-![Youtube link of playlist for audio downloads](/../Jaiimmortal-wPlaylists/Audio_playlist.png?raw=true "0")
+![Youtube link of playlist for audio downloads URL](/../Jaiimmortal-wPlaylists/Audio_playlist.png?raw=true "0")
 
-  
+![Youtube link of playlist for audio downloads working](/../Jaiimmortal-wPlaylists/Audio_playlist(1).png?raw=true "1")
+
+![Youtube link of playlist for audio downloads done](/../Jaiimmortal-wPlaylists/Audio_playlist(2).png?raw=true "2")
+
+#### At the end of the day tried all four of 'em 
+
+![End of the day 22-06-2017](/../Jaiimmortal-wPlaylists/EOD.png?raw=true "3")
