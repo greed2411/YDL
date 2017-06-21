@@ -22,6 +22,8 @@ Yet to test on Ubuntu
   * [YouTube download using youtube-dl embedded with Python - 2017](http://www.bogotobogo.com/VideoStreaming/YouTube/youtube-dl-embedding.php) pretty useful summary of important stuff mentioned from [youtube-dl's documentation](https://github.com/rg3/youtube-dl)
   * [Improper documentation for Python](https://github.com/rg3/youtube-dl/blob/master/youtube_dl/YoutubeDL.py) - You are all alone on the sea to understand the code and try if you want to use the package 'youtube_dl' , gave up trying to use the classes.
   
-  
+### Screenshots
+
+![Youtube link of playlist for audio downloads](/../Jaiimmortal-wPlaylists/Audio_playlist.png?raw=true "0")
 
   
