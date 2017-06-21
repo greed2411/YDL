@@ -1,9 +1,9 @@
 # YDL
-YouTube Downloader
+##YouTube Downloader
 
 A python file to download Video(.mp4) and Audio(.mp3) files just by providing the URL.
 
-Tested and developed on Windows 7 32-bit SP1
+Tested and developed on ***Windows 7 32-bit SP1***
 Yet to test on Ubuntu
 
 ### Command Line Programs Used:
