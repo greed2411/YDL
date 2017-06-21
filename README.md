@@ -22,7 +22,11 @@ Yet to test on Ubuntu
         ```youtube-dl installation
         pip install youtube-dl
         ```
-    
+     2. Install ffmpeg from [here](http://ffmpeg.zeranoe.com/builds/) and the [instructions](http://www.wikihow.com/Install-FFmpeg-on-Windows)
+     
+     3. And important thing : Move the contents of ffmpeg/bin/ to the location where youtube-dl.py is present as described in the [issue](https://stackoverflow.com/a/42745019)
+     
+         
 ### References
   * [wikiHow to Install FFmpeg on Windows](http://www.wikihow.com/Install-FFmpeg-on-Windows) - Helped me.
   * [Installing FFmpeg on all kind of environments](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
