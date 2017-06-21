@@ -1,5 +1,5 @@
 # YDL
-##YouTube Downloader
+## YouTube Downloader
 
 A python file to download Video(.mp4) and Audio(.mp3) files just by providing the URL.
 
