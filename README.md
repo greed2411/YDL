@@ -4,6 +4,7 @@
 A Python file to download Video(.mp4) and Audio(.mp3) Playlist of audio and video files just by providing the URL.
 
 Tested and developed on ***Windows 7 32-bit SP1***
+
 Yet to test on Ubuntu
 
 ### Command Line Programs Used
@@ -17,7 +18,8 @@ Yet to test on Ubuntu
 ### Steps to follow
   * On Windows 
      1. Install `youtube-dl`
-        ```pip install youtube-dl```
+        ```pip install youtube-dl
+        ```
 ### References
   * [wikiHow to Install FFmpeg on Windows](http://www.wikihow.com/Install-FFmpeg-on-Windows) - Helped me.
   * [Installing FFmpeg on all kind of environments](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
