@@ -19,7 +19,11 @@ Yet to test on Ubuntu
   * On Windows 
      1. Install `youtube-dl`
         
-        ```pip install youtube-dl
+        ```youtube-dl installation
+        pip install youtube-dl
+        ```
+        
+        ```youtube-dl
         ```
 ### References
   * [wikiHow to Install FFmpeg on Windows](http://www.wikihow.com/Install-FFmpeg-on-Windows) - Helped me.
