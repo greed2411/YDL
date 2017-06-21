@@ -22,9 +22,7 @@ Yet to test on Ubuntu
         ```youtube-dl installation
         pip install youtube-dl
         ```
-        
-        ```youtube-dl installation
-        ```
+    
 ### References
   * [wikiHow to Install FFmpeg on Windows](http://www.wikihow.com/Install-FFmpeg-on-Windows) - Helped me.
   * [Installing FFmpeg on all kind of environments](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
