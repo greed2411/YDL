@@ -1,7 +1,7 @@
 # YDL
 ## YouTube Downloader
 
-A Python file to download Video(.mp4) and Audio(.mp3) Playlist of audio and video files just by providing the URL.
+A Python file to download Audio, Video and  Playlist of audio and video files just by providing the URL and get them at the best quality.
 
 Tested and developed on ***Windows 7 32-bit SP1***
 
@@ -14,6 +14,10 @@ Yet to test on Ubuntu
 ### Libraries used
   * [subprocess](https://docs.python.org/3/library/subprocess.html#older-high-level-api) - For running commands from python.
   * [os](https://docs.python.org/3/library/os.html) - to get the current working directory.
+  * [urllib.request](https://docs.python.org/3/library/urllib.request.html#module-urllib.request) - For making GET methods
+  * [urllib.error](https://docs.python.org/3/library/urllib.error.html#module-urllib.error) - For considering URLError
+  * [sys](https://docs.python.org/3/library/sys.html) - For exiting out of the script
+  * [bs4](http://beautiful-soup-4.readthedocs.io/en/latest/) - For parsing text while the user is connected to the internet or not, in case of wifi-connected , but not logged in
   
 ### Steps to follow
   * On Windows 
