@@ -23,6 +23,7 @@ def internet_on():
 		Checking whether connected to the internet 
 		if not connected to internet but connected to wifi, not yet logged in, 
 		returns a '200' code for trying to fetch results (wifi defualt login page)
+		URLError if there is no internet or default wifi redirecting, AttributeError for handling 'Nonetype' object (response) in the above
 	"""
 	try:
 		
@@ -32,7 +33,7 @@ def internet_on():
 		
 			return True
 
-	except (urllib.request.URLError, AttributeError) : #URLError if there is no internet or default wifi redirecting, AttributeError for handling 'Nonetype' object (response) in the above
+	except (urllib.request.URLError, AttributeError) : 
 		
 		print("Hmmm... you're not connected to the Internet")
 		sys.exit(1)
@@ -119,4 +120,6 @@ def main():
 if __name__ == "__main__":
 	
 	main()
+	
+
 
