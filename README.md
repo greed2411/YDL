@@ -3,9 +3,7 @@
 
 A Python file to download Audio, Video and  Playlist of audio and video files just by providing the URL and get them at the best quality.
 
-Tested and developed on ***Windows 7 32-bit SP1***
-
-Yet to test on Ubuntu
+Tested and developed on ***Windows 7 32-bit SP1*** and ***Ubuntu GNOME 16.04 LTS***
 
 ### Command Line Programs Used
   * `youtube-dl` - Used to download the file from the internet
@@ -19,7 +17,7 @@ Yet to test on Ubuntu
   * [sys](https://docs.python.org/3/library/sys.html) - For exiting out of the script
   * [bs4](http://beautiful-soup-4.readthedocs.io/en/latest/) - For parsing text while the user is connected to the internet or not, in case of wifi-connected , but not logged in
   
-### Steps to follow
+### Steps to follow for installing dependencies
   * On Windows 
      1. Install `youtube-dl` via cmd
         
@@ -30,6 +28,20 @@ Yet to test on Ubuntu
      
      3. And important thing : Move the contents of ffmpeg/bin/ to the location where youtube-dl.py is present as described in the [issue](https://stackoverflow.com/a/42745019)
      
+     4. Run the script `ydl.py` via cmd
+     
+   * On Ubunutu or similar Distros
+      1. Install `youtube-dl` via terminal
+      
+         ```youtube-dl installation
+         pip install youtube-dl
+         ```
+      2. Install `ffmpeg`
+      
+         ```ffmpeg installation
+         sudo apt-get install ffmpeg
+         ```
+      3. Run the scrpipt `ydl-ubuntu.py` in the terminal.
          
 ### References
   * [wikiHow to Install FFmpeg on Windows](http://www.wikihow.com/Install-FFmpeg-on-Windows) - Helped me.
