@@ -26,7 +26,7 @@ Tested and developed on ***Windows 7 32-bit SP1*** and ***Ubuntu GNOME 16.04 LTS
         ```
      2. Install `ffmpeg` from [here](http://ffmpeg.zeranoe.com/builds/) and the [instructions](http://www.wikihow.com/Install-FFmpeg-on-Windows)
      
-     3. And important thing : Move the contents of ffmpeg/bin/ to the location where youtube-dl.py is present as described in the [issue](https://stackoverflow.com/a/42745019)
+     3. And important thing : Move the contents of ffmpeg/bin/ to the location where `youtube-dl.py` is present as described in the [issue](https://stackoverflow.com/a/42745019)
      
      4. Run the script `ydl.py` via cmd
      
