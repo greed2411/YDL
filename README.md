@@ -1,7 +1,7 @@
 # YDL
 ## YouTube Downloader
 
-A Python file to download Audio, Video and  Playlist of audio and video files just by providing the URL and get them at the best quality.
+A Python script to download Audio, Video and  Playlist of audio and video files just by providing the URL and get them at the best quality.
 
 Tested and developed on ***Windows 7 32-bit SP1*** and ***Ubuntu GNOME 16.04 LTS*** and ***macOS Sierra 10.12.5***
 
@@ -21,13 +21,14 @@ Tested and developed on ***Windows 7 32-bit SP1*** and ***Ubuntu GNOME 16.04 LTS
   If you don't have either of the last two packages install them using,
   
   ```pip3 installation
-        pip3 install bs4
-        ```
+  pip3 install bs4
+  ```
+  
   and 
   
   ```pip3 installation
-        pip3 install lxml
-        ```
+  pip3 install lxml
+  ```
   *** If you don't have pip3 or pip install go [here](https://stackoverflow.com/a/6587528) ***
   
 ### Steps to follow for installing dependencies
