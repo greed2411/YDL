@@ -29,7 +29,7 @@ Tested and developed on ***Windows 7 32-bit SP1*** and ***Ubuntu GNOME 16.04 LTS
   ```pip3 installation
   pip3 install lxml
   ```
-  ***If you don't have pip3 or pip install go [here](https://stackoverflow.com/a/6587528)***
+  ***If you don't have pip3 or pip go [here](https://stackoverflow.com/a/6587528)***
   
 ### Steps to follow for installing dependencies
   * On Windows 
