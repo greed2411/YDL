@@ -26,9 +26,9 @@ i. Install `celery`
  
     Celery requires a messaging agent in order to handle requests from an external source. This agent is referred to as a "broker".
     
-     ```rabbitmq installation
-     sudo apt-get install rabbitmq-server
-     ```
+    ```rabbitmq installation
+    sudo apt-get install rabbitmq-server
+    ```
  iii. Start Celery Worker Processes
       
       ```celery working
