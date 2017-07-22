@@ -22,31 +22,29 @@ i. Install `celery`
   ```pip installation
   pip install celery
   ```
+  
  ii. Install `rabbitmq-server`
- 
-    Celery requires a messaging agent in order to handle requests from an external source. This agent is referred to as a "broker".
-    
-    ```rabbitmq_installation
+   
+   ```
     sudo apt-get install rabbitmq-server
-    ```
+   ```
+ 
  iii. Start Celery Worker Processes
       
-      ```celery working
       celery worker -A ydlcelery &
-      ```
-      celery worker will get started , press `ctrl + C` to get back to the terminal.
+     
+    celery worker will get started , press `ctrl + C` to get back to the terminal.
       
  iv. Getting started
 
-      Open terminal in the `messaging` directory and run
+    Open terminal in the `messaging` directory and run
       
       `python main.py`
  
  v. To terminate the process at any time
-
-    ```kill process
+ 
      ps auxww | grep 'celery worker' | awk '{print $2}' | xargs kill -9
-     ```
+     
 If you face any isssues refer to the actual Synchrnous version of this program [here](https://github.com/Jaiimmortal/YDL/blob/master/README.md)
 
 ### References
