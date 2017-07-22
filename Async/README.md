@@ -1,7 +1,7 @@
 # YDL
 ## YouTube Downloader (Asynchronous)
 
-A Python script to download Audio, Video and  Playlist of audio and video files just by providing the URL and get them at the best quality [Asynchrnously](https://hackernoon.com/asynchronous-python-45df84b82434)
+A Python script to download Audio, Video and  Playlist of audio and video files just by providing the URL and get them at the best quality [Asynchronously](https://hackernoon.com/asynchronous-python-45df84b82434)
 
 ### Libraries used
   * [Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html) - Simple way to make Synchrnous tasks, Asynchronous.
@@ -33,11 +33,11 @@ i. Install `celery`
       
       celery worker -A ydlcelery &
      
-    celery worker will get started , press `ctrl + C` to get back to the terminal.
+  celery worker will get started , press `ctrl + C` to get back to the terminal.
       
  iv. Getting started
 
-    Open terminal in the `messaging` directory and run
+  Open terminal in the `messaging` directory and run
       
       `python main.py`
  
