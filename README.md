@@ -1,5 +1,5 @@
 # YDL
-## YouTube Downloader
+## YouTube Downloader (Synchronous)
 
 A Python script to download Audio, Video and  Playlist of audio and video files just by providing the URL and get them at the best quality.
 
