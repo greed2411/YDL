@@ -37,9 +37,7 @@ i. Install `celery`
       
  iv. Getting started
 
-  Open terminal in the `messaging` directory and run
-      
-      `python main.py`
+  Open terminal in the `messaging` directory and run `python main.py`
  
  v. To terminate the process at any time
  
