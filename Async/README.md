@@ -26,7 +26,7 @@ i. Install `celery`
  
     Celery requires a messaging agent in order to handle requests from an external source. This agent is referred to as a "broker".
     
-    ```rabbitmq installation
+    ```rabbitmq_installation
     sudo apt-get install rabbitmq-server
     ```
  iii. Start Celery Worker Processes
@@ -51,5 +51,6 @@ If you face any isssues refer to the actual Synchrnous version of this program [
 
 ### References
 
-The most helpful article I came across while using Celery and RabbitMQ for Ubuntu machine, [How To Use Celery with RabbitMQ to Queue Tasks on an Ubuntu VPS](https://www.digitalocean.com/community/tutorials/how-to-use-celery-with-rabbitmq-to-queue-tasks-on-an-ubuntu-vps)
+The most helpful article I came across while using Celery and RabbitMQ for Ubuntu machine, 
+[How To Use Celery with RabbitMQ to Queue Tasks on an Ubuntu VPS](https://www.digitalocean.com/community/tutorials/how-to-use-celery-with-rabbitmq-to-queue-tasks-on-an-ubuntu-vps)
 
