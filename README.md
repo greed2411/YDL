@@ -88,4 +88,8 @@ Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***
 
 ![Youtube link of playlist for audio downloads done](/../screenshots/3.png?raw=true "2")
 
+### Facts you may love
+
+1. Your downloads resume, if your laptop falls asleep or enters sleep mode, assuming the terminal is still left open.
+2. In case of network error or out of storage, if you establish the connection back or clear someother storage for the sake of playlist, restart the script with the same link at the same location. It resumes downloading from the last dowloaded location.
 
