@@ -57,7 +57,7 @@ Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***
          ```ffmpeg installation
          sudo apt-get install ffmpeg
          ```
-      3. Run the scrpipt `ydl-ubuntu.py` in the terminal.
+      3. Run the scrpipt `ydl-linux-mac.py` in the terminal.
     
     * On macOS
       1. Install `youtube-dl` via terminal
@@ -70,7 +70,7 @@ Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***
          ```ffmpeg installation
          brew install ffmpeg
          ```
-      3. Run the scrpipt `ydl-ubuntu.py` in the terminal.
+      3. Run the scrpipt `ydl-linux-mac.py` in the terminal.
       
 ### References
   * [wikiHow to Install FFmpeg on Windows](http://www.wikihow.com/Install-FFmpeg-on-Windows) - Helped me.
@@ -81,6 +81,8 @@ Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***
   * for format conversion and extracting audio followed [this](http://www.slashgeek.net/2016/06/24/5-youtube-dl-tips-might-not-know/)
   
 ### Screenshots
+
+![Youtube link of playlist for audio downloads URL](/../screenshots/4.png?raw=true "Ubuntu")
 
 ![Youtube link of playlist for audio downloads URL](/../screenshots/1.png?raw=true "0")
 
