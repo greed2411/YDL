@@ -32,7 +32,7 @@ def main():
 		if choice == 1:
 			url = video_link()
 			subprocess.call('youtube-dl  -o "Video downloads from youtube-dl/%(title)s.%(ext)s" -q --no-playlist --no-warnings "{url}"'.format(url=url), shell=True)
-			print('\n\nThe process is over and your file is probably residing in ' + os.getcwd() + '\\Video downloads from youtube-dl' )
+			print('\n\nThe process is over and your file is probably residing in ' + os.getcwd() + '/Video downloads from youtube-dl' )
 
 		elif choice == 2:
 			url = playlist_link()
@@ -42,7 +42,7 @@ def main():
 		elif choice == 3:
 			url = video_link()
 			subprocess.call('youtube-dl --embed-thumbnail -f 251 -o "Audio downloads from youtube-dl/%(title)s.%(ext)s" -q --no-playlist --extract-audio --audio-format mp3 --no-warnings "{url}"'.format(url=url), shell=True)
-			print('\n\nThe process is over and your file is probably residing in ' + os.getcwd() + '\\Audio downloads from youtube-dl' )
+			print('\n\nThe process is over and your file is probably residing in ' + os.getcwd() + '/Audio downloads from youtube-dl' )
 
 		elif choice == 4:
 			url = playlist_link()
