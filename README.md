@@ -5,7 +5,7 @@ A Python script to download Audio, Video and  Playlist of audio and video files 
 
 ### For Asynchrnous go [here](https://github.com/greed2411/YDL/tree/ydl-async)
 
-### For Light weight script without error handling, run `ydl-linux-mac.py`, you can skip the unnecessary library installations that way.
+** For Light weight script without error handling, run **`ydl-linux-mac.py`**, you can skip the unnecessary library installations that way.**
 
 Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS*** and ***macOS Sierra 10.12.5***
 
