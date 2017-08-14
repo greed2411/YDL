@@ -3,7 +3,7 @@
 
 A Python script to download Audio, Video and  Playlist of audio and video files just by providing the URL and get them at the best quality.
 
-### For Asynchrnous go [here](https://github.com/Jaiimmortal/YDL/tree/master/Async)
+### For Asynchrnous go [here](https://github.com/greed2411/YDL/tree/ydl-async)
 
 ### For Light weight script without error handling, run `ydl-linux-mac.py`, you can skip the unnecessary library installations that way.
 
