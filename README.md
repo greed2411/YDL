@@ -59,7 +59,7 @@ Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***
          ```ffmpeg installation
          sudo apt-get install ffmpeg
          ```
-      3. Run the scrpipt `ydl-heavy.py` in the terminal.
+      3. Run the scrpipt `ydl-heavy.py` in the terminal or the lightweight version `ydl-linux-mac.py`.
     
     * On macOS
       1. Install `youtube-dl` via terminal
@@ -72,7 +72,7 @@ Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***
          ```ffmpeg installation
          brew install ffmpeg
          ```
-      3. Run the scrpipt `ydl-linux-mac.py` in the terminal.
+      3. Run the scrpipt `ydl-heavy.py` in the terminal or the lightweight version `ydl-linux-mac.py`.
       
 ### References
   * [wikiHow to Install FFmpeg on Windows](http://www.wikihow.com/Install-FFmpeg-on-Windows) - Helped me.
