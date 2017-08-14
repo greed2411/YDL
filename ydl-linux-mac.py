@@ -41,12 +41,12 @@ def main():
 
 		elif choice == 3:
 			url = video_link()
-			subprocess.call('youtube-dl --embed-thumbnail -f 251 -o "Audio downloads from youtube-dl/%(title)s.%(ext)s" -q --no-playlist --extract-audio --audio-format mp3 --no-warnings "{url}"'.format(url=url), shell=True)
+			subprocess.call('youtube-dl -f 251 -o "Audio downloads from youtube-dl/%(title)s.%(ext)s" -q --no-playlist --extract-audio --audio-format mp3 --xattrs --embed-thumbnail --audio-quality 0 --no-warnings "{url}"'.format(url=url), shell=True)
 			print('\n\nThe process is over and your file is probably residing in ' + os.getcwd() + '/Audio downloads from youtube-dl' )
 
 		elif choice == 4:
 			url = playlist_link()
-			subprocess.call('youtube-dl -i --embed-thumbnail -o "%(playlist)s/%(playlist_index)s.%(title)s.%(ext)s" --yes-playlist --extract-audio --audio-format mp3 --no-warnings "{url}"'.format(url=url), shell=True)
+			subprocess.call('youtube-dl -i -o "%(playlist)s/%(playlist_index)s.%(title)s.%(ext)s" --yes-playlist --extract-audio --audio-format mp3 --xattrs --embed-thumbnail --audio-quality 0 --no-warnings "{url}"'.format(url=url), shell=True)
 			print('\n\nThe process is over and currently residing in the current working directgory with the name of the folder same as that of playlist!')
 
 	except Exception as e:
