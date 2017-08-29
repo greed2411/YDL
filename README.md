@@ -74,6 +74,16 @@ Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***
          ```
       3. Run the scrpipt `ydl-heavy.py` in the terminal or the lightweight version `ydl-linux-mac.py`.
       
+       ### Possible errors: 
+      
+         It sometimes asks you to install 'pyattr' or the 'xattr' module, even GNU's 'attr' module by throwing an error
+
+         Simple solution : 
+
+         ```
+         pip install xattr
+         ```
+      
 ### References
   * [wikiHow to Install FFmpeg on Windows](http://www.wikihow.com/Install-FFmpeg-on-Windows) - Helped me.
   * [Installing FFmpeg on all kind of environments](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
