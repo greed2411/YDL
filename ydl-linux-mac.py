@@ -25,11 +25,11 @@ def playlist_link():
 def quality_input():
 	quality = ['240','360','480','720']
 	print("\nPlease select quality")
-	userImput = int(input('\n\t[1] 240p \n\t[2] 360p \n\t[3] 480p \n\t[4] 720p \n\t[5] Default (best available quality)\n'))
-	if userImput == 5 :
+	userInput = int(input('\n\t[1] 240p \n\t[2] 360p \n\t[3] 480p \n\t[4] 720p \n\t[5] Default (best available quality)\n'))
+	if userInput == 5 :
 		return ""
 	else :
-		return '-f "bestvideo[height<={q}]+bestaudio/best[height<={q}]"'.format(q=quality[userImput-1])
+		return '-f "bestvideo[height<={q}]+bestaudio/best[height<={q}]"'.format(q=quality[userInput-1])
 
 def main():
 
