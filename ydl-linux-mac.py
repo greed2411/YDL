@@ -22,6 +22,14 @@ def video_link():
 def playlist_link():
 	return input('Enter a valid entire playlist link from YouTube ')
 
+def quality_input():
+	quality = ['240','360','480','720']
+	print("\nPlease select quality")
+	userImput = int(input('\n\t[1] 240p \n\t[2] 360p \n\t[3] 480p \n\t[4] 720p \n\t[5] Default (best available quality)\n'))
+	if userImput == 5 :
+		return ""
+	else :
+		return '-f "bestvideo[height<={q}]+bestaudio/best[height<={q}]"'.format(q=quality[userImput-1])
 
 def main():
 
@@ -31,12 +39,12 @@ def main():
 
 		if choice == 1:
 			url = video_link()
-			subprocess.call('youtube-dl  -o "Video downloads from youtube-dl/%(title)s.%(ext)s" -q --no-playlist --no-warnings "{url}"'.format(url=url), shell=True)
+			subprocess.call('youtube-dl  -o "Video downloads from youtube-dl/%(title)s.%(ext)s" -q --no-playlist --no-warnings {quality} "{url}"'.format(url=url,quality=quality_input()), shell=True)
 			print('\n\nThe process is over and your file is probably residing in ' + os.getcwd() + '/Video downloads from youtube-dl' )
 
 		elif choice == 2:
 			url = playlist_link()
-			subprocess.call('youtube-dl -i -o "%(playlist)s/%(playlist_index)s.%(title)s.%(ext)s" --yes-playlist --newline --no-warnings "{url}"'.format(url=url), shell=True)
+			subprocess.call('youtube-dl -i -o "%(playlist)s/%(playlist_index)s.%(title)s.%(ext)s" --yes-playlist --newline --no-warnings {quality} "{url}"'.format(url=url,quality=quality_input()), shell=True)
 			print('\n\nThe process is over and currently residing in the current working directgory with the name of the folder same as that of playlist!')
 
 		elif choice == 3:
