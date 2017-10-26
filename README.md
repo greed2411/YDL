@@ -5,14 +5,14 @@ A Python script to download Audio, Video and  Playlist of audio and video files 
 
 ### For Asynchrnous go [here](https://github.com/greed2411/YDL/tree/ydl-async)
 
-For Light weight script without error handling, run `ydl-linux-mac.py`, you can skip the unnecessary library installations that way. But, you can't do monkey error testing with it.
-
 Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***, ***Ubuntu 16.10*** and ***macOS Sierra 10.12.5***
 
 ### Command Line Programs Used
   * `youtube-dl` - Used to download the file from the internet
   * `ffmpeg` - Used for postprocess data, i.e., to convert file from .webm to .mp3 format
-  
+
+For Light weight script without error handling, run `ydl-lite.py`, you can skip the unnecessary library installations that way. But, you can't do monkey error testing with it.
+
 ### Libraries used on Py 3.6.1 Anaconda, works with other py3 versions and distributions for `ydl.py` and `ydl-windows.py`.
   * [subprocess](https://docs.python.org/3/library/subprocess.html#older-high-level-api) - For running commands from python.
   * [os](https://docs.python.org/3/library/os.html) - to get the current working directory.
@@ -106,4 +106,4 @@ Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***
 
 ### Contributor(s)
 
-Thanks @MINOSai for quality control.
+Thanks [@MINOSai](https://github.com/MINOSai) for quality control.
