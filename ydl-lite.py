@@ -3,15 +3,20 @@ import os
 
 
 """
-	YouTube Downloader used to download the best quality
+	YouTube Downloader used to download the best quality 
+	audio, 
 	video,
-	audio out of video,
-	Playlist of video files,
-	Playlist of audio files
+	Playlist of audio files,
+	Playlist of video files
 	from a URL belonging to https://www.youtube.com/
-
+	
 	Started working on : 21-06-2017
+	Done by : Jaivarsan B
+	email : jaiimmortal@gmail.com
 
+
+	Project was done as a hobby, with no intention to violate any copyrights.
+	
 """
 
 
@@ -39,12 +44,12 @@ def main():
 
 		if choice == 1:
 			url = video_link()
-			subprocess.call('youtube-dl  -o "Video downloads from youtube-dl/%(title)s.%(ext)s" -q --no-playlist --no-warnings {quality} "{url}"'.format(url=url,quality=quality_input()), shell=True)
+			subprocess.call('youtube-dl  -o "Video downloads from youtube-dl/%(title)s.%(ext)s" -q --no-playlist --no-warnings {quality} "{url}"'.format(quality=quality_input(), url=url), shell=True)
 			print('\n\nThe process is over and your file is probably residing in ' + os.getcwd() + '/Video downloads from youtube-dl' )
 
 		elif choice == 2:
 			url = playlist_link()
-			subprocess.call('youtube-dl -i -o "%(playlist)s/%(playlist_index)s.%(title)s.%(ext)s" --yes-playlist --newline --no-warnings {quality} "{url}"'.format(url=url,quality=quality_input()), shell=True)
+			subprocess.call('youtube-dl -i -o "%(playlist)s/%(playlist_index)s.%(title)s.%(ext)s" --yes-playlist --newline --no-warnings {quality} "{url}"'.format(quality=quality_input(), url=url), shell=True)
 			print('\n\nThe process is over and currently residing in the current working directgory with the name of the folder same as that of playlist!')
 
 		elif choice == 3:

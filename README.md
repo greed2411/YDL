@@ -7,13 +7,13 @@ A Python script to download Audio, Video and  Playlist of audio and video files 
 
 For Light weight script without error handling, run `ydl-linux-mac.py`, you can skip the unnecessary library installations that way. But, you can't do monkey error testing with it.
 
-Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS*** and ***macOS Sierra 10.12.5***
+Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***, ***Ubuntu 16.10*** and ***macOS Sierra 10.12.5***
 
 ### Command Line Programs Used
   * `youtube-dl` - Used to download the file from the internet
   * `ffmpeg` - Used for postprocess data, i.e., to convert file from .webm to .mp3 format
   
-### Libraries used on Py 3.6.1 Anaconda, works with other py3 versions and distributions for `ydl.py` and `ydl-heavy.py`.
+### Libraries used on Py 3.6.1 Anaconda, works with other py3 versions and distributions for `ydl.py` and `ydl-windows.py`.
   * [subprocess](https://docs.python.org/3/library/subprocess.html#older-high-level-api) - For running commands from python.
   * [os](https://docs.python.org/3/library/os.html) - to get the current working directory.
   * [urllib.request](https://docs.python.org/3/library/urllib.request.html#module-urllib.request) - For making GET methods
@@ -46,7 +46,7 @@ Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***
      
      3. And important thing : Move the contents of ffmpeg/bin/ to the location where `youtube-dl.py` is present as described in the [issue](https://stackoverflow.com/a/42745019)
      
-     4. Run the script `ydl.py` via cmd
+     4. Run the script `ydl-windows.py` via cmd
      
    * On Ubunutu or similar Distros
       1. Install `youtube-dl` via terminal
@@ -59,7 +59,7 @@ Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***
          ```ffmpeg installation
          sudo apt-get install ffmpeg
          ```
-      3. Run the scrpipt `ydl-heavy.py` in the terminal or the lightweight version `ydl-linux-mac.py`.
+      3. Run the scrpipt `ydl.py` in the terminal or the lightweight version `ydl-lite.py`.
     
     * On macOS
       1. Install `youtube-dl` via terminal
@@ -72,7 +72,7 @@ Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***
          ```ffmpeg installation
          brew install ffmpeg
          ```
-      3. Run the scrpipt `ydl-heavy.py` in the terminal or the lightweight version `ydl-linux-mac.py`.
+      3. Run the scrpipt `ydl.py` in the terminal or the lightweight version `ydl-lite.py`.
       
        ### Possible errors: 
       
@@ -96,13 +96,14 @@ Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***
 
 ![Youtube link of playlist for audio downloads URL](/../screenshots/4.png?raw=true "Ubuntu")
 
-![Youtube link of playlist for audio downloads URL](/../screenshots/1.png?raw=true "0")
-
-![Youtube link of playlist for audio downloads working](/../screenshots/2.png?raw=true "1")
-
-![Youtube link of playlist for audio downloads done](/../screenshots/3.png?raw=true "2")
+![Youtube link of playlist for audio downloads done](/../screenshots/3.png?raw=true "macOS")
 
 ### Facts you may love
 
 1. Your downloads resume, if your laptop falls asleep or enters sleep mode, assuming the terminal is still left open.
 2. In case of network error or out of storage, if you establish the connection back or clear someother storage for the sake of playlist, restart the script with the same link at the same location. It resumes downloading from the place where it left, instead of downloading the entire playlist again from the beginning. 
+3. If you concern about the data usage like every other Indian (incl myself), don't worry quality control is present for video and video playlist downloads.
+
+### Contributor(s)
+
+Thanks @MINOSai for quality control.
