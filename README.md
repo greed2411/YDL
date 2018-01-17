@@ -102,7 +102,7 @@ For Light weight script without error handling, run `ydl-lite.py`, you can skip 
 
 1. Your downloads resume, if your laptop falls asleep or enters sleep mode, assuming the terminal is still left open.
 2. In case of network error or out of storage, if you establish the connection back or clear someother storage for the sake of playlist, restart the script with the same link at the same location. It resumes downloading from the place where it left, instead of downloading the entire playlist again from the beginning. 
-3. If you concern about the data usage like every other Indian (incl myself), don't worry quality control is present for video and video playlist downloads.
+3. If you are concerned about the data usage like every other Indian (incl myself), don't worry quality control is present for video and video playlist downloads.
 
 ### Contributor(s)
 
